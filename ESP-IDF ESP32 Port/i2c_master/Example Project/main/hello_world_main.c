@@ -10,12 +10,12 @@ void app_main(void)
     //iic init
     iic_init();
 
-    // //bmp280 init
+    //bmp280 init
     bmp280_init();
 
     float pressure=0;
     float temperature=0;
-    while (1)
+    while(1)
     {
         //bmp280 read
         bmp280_read(&pressure,&temperature);
