@@ -14,7 +14,7 @@ void app_main(void)
 
     float pressure=0;
     float temperature=0;
-    while (1)
+    while(1)
     {
         //bmp280 read
         bmp280_read(&pressure,&temperature);
